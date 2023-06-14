@@ -20,6 +20,7 @@
 		21405AA829AC9B260018C2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21405AAB29AC9B260018C2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21405AAD29AC9B260018C2BB /* YEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YEditor.entitlements; sourceTree = "<group>"; };
+		21405AB329AC9F5E0018C2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		21405AA329AC9B230018C2BB /* YEditor */ = {
 			isa = PBXGroup;
 			children = (
+				21405AB329AC9F5E0018C2BB /* Info.plist */,
 				21405AA429AC9B230018C2BB /* AppDelegate.swift */,
 				21405AA629AC9B230018C2BB /* ViewController.swift */,
 				21405AA829AC9B260018C2BB /* Assets.xcassets */,
@@ -275,6 +277,7 @@
 				DEVELOPMENT_TEAM = 45C54WCX67;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YEditor/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -302,6 +305,7 @@
 				DEVELOPMENT_TEAM = 45C54WCX67;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YEditor/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
